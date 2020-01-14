@@ -20,7 +20,7 @@ def get_number():
         return float(data)
 
 # Matrix power with modulos 
-# Source: https://stackoverflow.com/questions/8514565/numpy-matrix-power-exponent-with-modulo
+# Source: https://stackoverflow.com/a/26284607
 from numpy.core.numeric import concatenate, isscalar, binary_repr, identity, asanyarray, dot
 from numpy.core.numerictypes import issubdtype    
 def matrix_power(M, n, mod_val):
